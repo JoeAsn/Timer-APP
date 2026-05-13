@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: cursive;
+  background-color: #f0f0f0; 
+} 
+section{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 40%;
+  text-align: center;
+}
+button{
+  font-family: inherit;
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 5px;
+}
+.start{
+  background-color: #4CAF50;
+  color: white;
+}
+.stop{
+  background-color: #f44336;
+  color: white;
+  display: none;
+}
+.reset{
+  background-color: blue;
+  color: white;
+  display: none;
+}
+.continue{
+  background-color: orange;
+  color: white;
+  display: none;
+}
